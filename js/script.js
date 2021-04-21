@@ -10,7 +10,7 @@ let images = document.querySelectorAll("img");
 images.forEach( img => {
     img.addEventListener("click", (e) => {
         let attr = e.target.getAttribute("src");
-        alert(attr);
+        alert(`Source of this picture is - ${attr}`);
     })
 })
 
