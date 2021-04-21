@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.images .img-wrapper img {
+    transition: all 0.5s ease;
+}
+
+.images .img-wrapper img:hover {
+    box-shadow: -15px 15px 10px 0px rgba(31, 36, 39, 0.3);
+}
