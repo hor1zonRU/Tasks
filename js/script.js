@@ -1,18 +1,18 @@
 // 40. Даны картинки. Привяжите к каждой картинке событие, чтобы по клику на картинку алертом выводился ее src.
 
-let images = document.querySelectorAll("img");
+// let images = document.querySelectorAll("img");
 
 // images.forEach(addEventListener("click", (e) => {
 //     let attr = e.target.getAttribute("src");
 //     alert(attr);
 // }));
 
-images.forEach( img => {
-    img.addEventListener("click", (e) => {
-        let attr = e.target.getAttribute("src");
-        alert(`Source of this picture is - ${attr}`);
-    })
-})
+// images.forEach( img => {
+//     img.addEventListener("click", (e) => {
+//         let attr = e.target.getAttribute("src");
+//         alert(`Source of this picture is - ${attr}`);
+//     })
+// })
 
 
 // 42. В переменной min лежит число от 0 до 59. Определите в какую четверть часа попадает это число (в первую, вторую, третью или четвертую).

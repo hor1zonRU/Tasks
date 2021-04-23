@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-color-49-52-65: darksalmon;
+}
+
 .images {
     width: 1200px;
     height: 400px;
@@ -18,4 +22,41 @@
 
 .images .img-wrapper img:hover {
     box-shadow: -15px 15px 10px 0px rgba(31, 36, 39, 0.3);
+}
+
+
+/* Tasks 49-52-65 */
+
+h2 {
+    text-align: center;
+    margin: 25px 0 25px 0;
+    font-size: 35px;
+    text-decoration: underline;
+    color: var(--main-color-49-52-65);
+}
+
+input {
+    display: block;
+    width: 250px;
+    height: 25px;
+    margin: 0 auto;
+    color: var(--main-color-49-52-65);
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: var(--main-color-49-52-65);
+    
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#input_65_item {
+    margin-bottom: 3px;
 }
